@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(5,206,241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form {
+    text-align: center;
+    /* display: inline-flex; ;Alteração para inline-flex */
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0f2f1; /* Tom de azul mais claro para o formulário */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b2dfdb; /* Tom de azul para a borda do input */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1976D2; /* Tom de azul para o botão */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1565c0; /* Tom mais escuro ao passar o mouse */
+}
+
+.date {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #0b5b9c; /* Tom de azul mais claro para a área de exibição do tempo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.city{
+    font-size: 25px;
+}
+img {
+    width: 5rem;
+}
+.clima{
+    text-transform: uppercase;
+}
+h6{
+    font-size: 25px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
