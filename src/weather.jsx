@@ -93,6 +93,12 @@ const Weather = () => {
                     <p>Máx:{Math.round(weatherData.main.temp_max)}º C | Mín: {Math.round(weatherData.main.temp_min)}º C</p>
                 </div>
             )}
+            
+            <div className="footer">
+                <footer id="footer" class="py-1 my-1">
+                    <p class="text-center">&copy; 2023 Douglas Mello | Desenvolvedor de Sistemas</p>
+                </footer>
+            </div>
         </>
     );
 };
